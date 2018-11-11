@@ -38,6 +38,15 @@ padding: 10px;
 .footer-column {
   width: 28%;
   float: left;
-  background-color: #808080;
+  background-color: #363529;
   padding: 28px;
+}
+
+.region-header {
+  background-color: #363529;
+  padding: 10px;
+}
+
+.region-flash {
+  margin: auto;
 }
