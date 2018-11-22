@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Social media
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Jag finns inte på social media så denna footer är onödig :)

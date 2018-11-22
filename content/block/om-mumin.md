@@ -1,3 +1,3 @@
 #### Om mumin
 
-Mumin! Det bästa som kommit från Finland sen Tarja Halonen.
+Tove Jansson är framför allt känd för sina böcker och tecknade serier om mumintrollen.
