@@ -72,6 +72,7 @@ Färger: Deras hemsida är fylld med väldigt mycket text och även bilder. Fär
 <tr>
 <td style="height: 50px; width: 50px; background-color: #0C0C0C">
 <td style="height: 50px; width: 50px; background-color: #F2F2F2">
+<td style="height: 50px; width: 50px; background-color: #262626">
 <td style="height: 50px; width: 50px; background-color: #CB0000">
 </tr>
 </table>
