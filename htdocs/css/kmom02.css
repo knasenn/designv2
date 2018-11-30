@@ -4399,7 +4399,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  min-width: 10em;
+  padding-right: 30px;
 }
 .rm-default a {
   display: block;
@@ -4426,7 +4426,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: inherit;
+  background-color: #fff;
 }
 .rm-desktop li {
   position: relative;
