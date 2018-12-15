@@ -58,5 +58,10 @@ return [
             "url" => "rapport",
             "title" => "rapporter och möjligheter för utveckling.",
         ],
+        [
+            "text" => "blogg",
+            "url" => "blogg",
+            "title" => "bloggar och möjligheter för utveckling.",
+        ],
     ],
 ];

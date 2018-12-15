@@ -1,6 +1,6 @@
 ---
 ---
-kmom04
+04_fargschema
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/redovisning/04_fargschema.md`.

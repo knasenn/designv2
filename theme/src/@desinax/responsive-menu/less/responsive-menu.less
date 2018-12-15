@@ -36,7 +36,7 @@
 
 // Submenu
 @submenuZIndex:             9999;
-@submenuBgColor:            #fff;
+@submenuBgColor:            @navbarItemBgColor;
 @submenuMinWidth:           10em;
 @submenuItemBorderColor:    #eee;
 
@@ -145,8 +145,7 @@ a.rm-button {
         // Menu item for submenu
         li {
             display: block;
-            // min-width: @submenuMinWidth;
-            padding-right: 30px;
+            min-width: @submenuMinWidth;
         }
     }
 
@@ -194,9 +193,6 @@ a.rm-button {
 
     ul {
         background-color: @submenuBgColor;
-        // background-color: #fff;
-        // padding: none;
-
     }
 
     li {

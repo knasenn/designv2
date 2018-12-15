@@ -7,6 +7,12 @@ v.4.0.0 2018-11-30
 * Done with kmom04 - where we changede differen color schemes.
 
 
+v5.0.0 (2018-11-22)
+------------------------
+
+* Bilder etc.
+
+
 
 v3.0.0 (2018-11-22)
 ------------------------
