@@ -1,8 +1,5 @@
 /*!
- * Stylesheet for design kmom05xx
- *
- * This stylesheet is for the design course and kmom02 where we use LESS.
- */
+ * Stylesheet for design kmom06 - designelement*/
 /**
  * Import var. mixins.
  */
@@ -4739,13 +4736,13 @@ figure.figure-codepen {
  */
 html {
   overflow-y: scroll;
-  background-color: #E0DCE7;
+  background-color: yellow;
 }
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   color: #333;
-  background-color: #E0DCE7;
+  background-image: url(http://ran.ge/content/uploads/2009/11/logo-trimmed.png);
   font: 16px/1.375 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 img {
@@ -5089,9 +5086,8 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: yellow;
+  padding-left: 10px;
 }
 /**
  * Header layout
@@ -5132,13 +5128,12 @@ hr::after {
   max-width: 100%;
 }
 .inner-wrap-header {
-  background-color: #E0DCE7;
+  background-color: #fff;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
 }
 .inner-wrap-flash {
-  background-color: #E0DCE7;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -5165,6 +5160,7 @@ hr::after {
 }
 .region-flash {
   position: inherit;
+  opacity: 0.3;
 }
 .region-breadcrumb {
   display: inline;
@@ -5176,6 +5172,14 @@ hr::after {
 /**
  * Main and sidebar layout
  */
+.inner-wrap-main {
+  background-color: #fff;
+}
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+  background-color: #fff;
+}
 .region-main {
   display: inline;
   float: left;
@@ -5279,6 +5283,7 @@ hr::after {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  min-height: 200px;
 }
 .site-footer {
   display: inline;
@@ -5286,14 +5291,12 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-}
-.outer-wrap-footer {
-  background-color: #E0DCE7;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  min-height: 200px;
 }
 .inner-wrap-footer {
+  min-height: 100px;
   color: #333;
+  text-shadow: 1px;
   background-color: #fff;
 }
 /**
@@ -5378,6 +5381,46 @@ hr::after {
   content: "";
   display: block;
   clear: both;
+}
+.column {
+  float: left;
+  width: 28%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+.columnFull {
+  float: left;
+  width: 93%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+.columnHalfL {
+  float: left;
+  width: 46%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+.columnHalfR {
+  float: right;
+  width: 46%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+.footerYo {
+  float: right;
+  width: 10%;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 /**
  * Import gallery.less

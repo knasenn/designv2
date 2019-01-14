@@ -1,0 +1,30 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: red;
+@bgColorBody: blue;
+@colorBody: #333;
+// @fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    // background-image: linear-gradient(to right, yellow, white, white, yellow);
+    background-image: linear-gradient(#333,#333, white);
+    // font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+// Activate grid etc
+#desinax-hgrid.activateDefaultTypography();

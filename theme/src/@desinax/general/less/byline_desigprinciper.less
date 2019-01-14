@@ -1,0 +1,65 @@
+/** --------------------------------------------------------------
+ * Byline for author information
+ */
+@magicNumber: 34px;
+@authorBylineBorderColor: #ccc;
+
+.author-byline {
+    border: 1px solid @authorBylineBorderColor;
+    margin-bottom: @magicNumber * 2 - 2;
+    padding: 1em;
+    background-color: white;
+
+    // clearfix
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.column {
+  float: left;
+  width: 28%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+
+.columnFull {
+  float: left;
+  width: 93%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+
+.columnHalfL {
+  float: left;
+  width: 46%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+
+.columnHalfR {
+  float: right;
+  width: 46%;
+  padding-right: 14px;
+  padding-left: 14px;
+  box-shadow: 4px 4px 2px grey;
+}
+
+.footerYo {
+  float: right;
+  width: 10%;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

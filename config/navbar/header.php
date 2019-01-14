@@ -49,9 +49,14 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
-            "text" => "Test",
-            "url" => "test",
-            "title" => "Vi testar lite",
+            "text" => "designprinciper",
+            "url" => "designprinciper",
+            "title" => "designprinciper",
+        ],
+        [
+            "text" => "designelement",
+            "url" => "designelement",
+            "title" => "designelement",
         ],
         [
             "text" => "rapport",

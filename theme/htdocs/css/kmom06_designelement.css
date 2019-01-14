@@ -1,8 +1,5 @@
 /*!
- * Stylesheet for design kmom05xx
- *
- * This stylesheet is for the design course and kmom02 where we use LESS.
- */
+ * Stylesheet for design kmom06 - designelement*/
 /**
  * Import var. mixins.
  */
@@ -4530,6 +4527,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-mobile a:hover {
   text-decoration: underline;
+  background-color: #333;
 }
 .rm-max .rm-mobile .rm-submenu-button {
   float: right;
@@ -4739,17 +4737,18 @@ figure.figure-codepen {
  */
 html {
   overflow-y: scroll;
-  background-color: #E0DCE7;
+  background-color: red;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #E0DCE7;
-  font: 16px/1.375 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(#333, #333, white);
+  font: 16px/1.375 Verdana, Geneva, sans-serif;
 }
 img {
   max-width: 100%;
+  border-radius: 50px;
 }
 h1,
 h2,
@@ -4757,7 +4756,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   margin-top: 22px;
   margin-bottom: 22px;
 }
@@ -5089,9 +5088,8 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: #333;
+  padding-left: 10px;
 }
 /**
  * Header layout
@@ -5130,15 +5128,16 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  border-radius: 50%;
 }
 .inner-wrap-header {
-  background-color: #E0DCE7;
+  background-color: #333;
+  color: white;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
 }
 .inner-wrap-flash {
-  background-color: #E0DCE7;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -5165,6 +5164,7 @@ hr::after {
 }
 .region-flash {
   position: inherit;
+  opacity: 0.3;
 }
 .region-breadcrumb {
   display: inline;
@@ -5176,6 +5176,15 @@ hr::after {
 /**
  * Main and sidebar layout
  */
+.inner-wrap-main {
+  background-color: #fff;
+}
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+  background-color: #fff;
+  border-radius: 50px;
+}
 .region-main {
   display: inline;
   float: left;
@@ -5183,6 +5192,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
+  border-radius: 50px;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5279,6 +5289,7 @@ hr::after {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  min-height: 200px;
 }
 .site-footer {
   display: inline;
@@ -5286,15 +5297,16 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  min-height: 200px;
 }
 .outer-wrap-footer {
-  background-color: #E0DCE7;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  background-color: #333;
 }
 .inner-wrap-footer {
-  color: #333;
-  background-color: #fff;
+  min-height: 200px;
+  color: #fff;
+  text-shadow: 1px;
+  background-color: #333;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -5378,6 +5390,48 @@ hr::after {
   content: "";
   display: block;
   clear: both;
+}
+.column {
+  float: left;
+  width: 28%;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.columnR {
+  float: right;
+  width: 28%;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.columnFull {
+  float: left;
+  width: 93%;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.columnHalfL {
+  float: left;
+  width: 46%;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.columnHalfR {
+  float: right;
+  width: 46%;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.footerYo {
+  float: right;
+  width: 10%;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 /**
  * Import gallery.less
